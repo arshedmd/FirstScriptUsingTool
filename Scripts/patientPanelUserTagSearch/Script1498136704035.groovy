@@ -42,6 +42,8 @@ WebUI.click(findTestObject('Object Repository/FirstScriptUsingToolOr/Page_Health
 WebUI.waitForElementVisible(findTestObject('Object Repository/FirstScriptUsingToolOr/Page_Health Home Dashboard (1)/div_appEnrollment_menu'), 
     10)
 
+
+
 //patientpanel
 WebUI.click(findTestObject('Object Repository/FirstScriptUsingToolOr/Page_Health Home Dashboard (1)/span_md-select-icon'))
 
