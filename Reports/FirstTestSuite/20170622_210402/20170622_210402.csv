@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FirstTestSuite,Chrome 58.0.3029.110,,2017-06-22 21:04:06,2017-06-22 21:05:18,1m - 12.119s,ERROR
+,,,,,,
+Test Cases/FirstSciptUsingTool,Chrome 58.0.3029.110,,2017-06-22 21:04:06,2017-06-22 21:04:07,0.553s,ERROR
+Statement - evaluate(new java.io.File(FirstSciptUsingTool)),Chrome 58.0.3029.110,,2017-06-22 21:04:07,2017-06-22 21:04:07,0.008s,PASSED
+,,,,,,
+Test Cases/patientPanelUserTagSearch,Chrome 58.0.3029.110,,2017-06-22 21:04:07,2017-06-22 21:05:18,1m - 11.185s,PASSED
+"Statement - info = [""url"":"""", ""username"":"""", ""password"":""""]",Chrome 58.0.3029.110,,2017-06-22 21:04:07,2017-06-22 21:04:07,0.002s,PASSED
+"Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/FirstTestData"")",Chrome 58.0.3029.110,,2017-06-22 21:04:07,2017-06-22 21:04:09,1.184s,PASSED
+"Statement - url = data.getValue(1, 1)",Chrome 58.0.3029.110,,2017-06-22 21:04:09,2017-06-22 21:04:09,0.025s,PASSED
+"Statement - username = data.getValue(2, 1)",Chrome 58.0.3029.110,,2017-06-22 21:04:09,2017-06-22 21:04:09,0.001s,PASSED
+"Statement - password = data.getValue(3, 1)",Chrome 58.0.3029.110,,2017-06-22 21:04:09,2017-06-22 21:04:09,0.001s,PASSED
+Statement - url = url,Chrome 58.0.3029.110,,2017-06-22 21:04:09,2017-06-22 21:04:09,0.001s,PASSED
+Statement - password = password,Chrome 58.0.3029.110,,2017-06-22 21:04:09,2017-06-22 21:04:09,0.001s,PASSED
+Statement - username = username,Chrome 58.0.3029.110,,2017-06-22 21:04:09,2017-06-22 21:04:09,0.001s,PASSED
+openBrowser,Chrome 58.0.3029.110,,2017-06-22 21:04:09,2017-06-22 21:04:50,40.920s,PASSED
+setText,Chrome 58.0.3029.110,,2017-06-22 21:04:50,2017-06-22 21:04:50,0.513s,PASSED
+setText,Chrome 58.0.3029.110,,2017-06-22 21:04:50,2017-06-22 21:04:50,0.201s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-22 21:04:50,2017-06-22 21:04:50,0.206s,PASSED
+waitForElementVisible,Chrome 58.0.3029.110,,2017-06-22 21:04:50,2017-06-22 21:04:55,4.252s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-22 21:04:55,2017-06-22 21:04:55,0.202s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-22 21:04:55,2017-06-22 21:04:58,3.008s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-22 21:04:58,2017-06-22 21:04:58,0.165s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-22 21:04:58,2017-06-22 21:05:01,3.001s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-22 21:05:01,2017-06-22 21:05:01,0.213s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-22 21:05:01,2017-06-22 21:05:04,3.000s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-22 21:05:04,2017-06-22 21:05:04,0.165s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-22 21:05:04,2017-06-22 21:05:07,3.001s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-22 21:05:07,2017-06-22 21:05:08,0.159s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-22 21:05:08,2017-06-22 21:05:11,3.001s,PASSED
+Statement - ele = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/FirstScriptUsingToolOr/Page_Health Home Dashboard (1)/patient panel/patientpanelMaText)),Chrome 58.0.3029.110,,2017-06-22 21:05:11,2017-06-22 21:05:11,0.112s,PASSED
+"Statement - If (ele.equalsIgnoreCase(""AA""))",Chrome 58.0.3029.110,,2017-06-22 21:05:11,2017-06-22 21:05:11,0.001s,PASSED
+Statement - Else,Chrome 58.0.3029.110,,2017-06-22 21:05:11,2017-06-22 21:05:11,0.004s,PASSED
+"Statement - varA = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/FirstScriptUsingToolOr/Page_Health Home Dashboard (1)/patient panel/patientpanelMaText), 10)",Chrome 58.0.3029.110,,2017-06-22 21:05:11,2017-06-22 21:05:11,0.030s,PASSED
+Statement - If (varA == true),Chrome 58.0.3029.110,,2017-06-22 21:05:11,2017-06-22 21:05:11,0.002s,PASSED
+Statement - DisplayName(),Chrome 58.0.3029.110,,2017-06-22 21:05:11,2017-06-22 21:05:11,0.000s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-22 21:05:11,2017-06-22 21:05:11,0.358s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-22 21:05:11,2017-06-22 21:05:14,3.000s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-22 21:05:14,2017-06-22 21:05:14,0.183s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-22 21:05:14,2017-06-22 21:05:17,3.002s,PASSED
+closeBrowser,Chrome 58.0.3029.110,,2017-06-22 21:05:17,2017-06-22 21:05:18,0.793s,PASSED

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>FirstTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-07-05T16:42:55</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>71b7cc1c-2b5f-476d-98a9-5a6bc1973684</testSuiteGuid>
+   <testCaseLink>
+      <guid>17f08033-ed74-4fef-a9bf-552ef2286777</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FirstSciptUsingTool</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ce90bb51-2c2b-4229-98e1-a835704efc2a</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-10</value>
+         </iterationEntity>
+         <testDataId>Data Files/FirstTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bba9d744-8daf-4e95-bad9-c942545cac0a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>27bccb95-d899-4f5f-8bc9-9221028cb070</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>55665260-9320-4f50-a9a9-0e337318efca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fc8db313-a03c-4969-be2b-8dd8dc962145</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>99542027-446e-4339-83c8-87542d56ea89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/patientPanelUserTagSearch</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5030fce7-3fd4-41a4-9004-565c7b83352c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FirstTestData</testDataId>
+      </testDataLink>
+   </testCaseLink>
+</TestSuiteEntity>

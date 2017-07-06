@@ -2,6 +2,7 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+<<<<<<< HEAD
    <GlobalVariableEntity>
       <description></description>
       <initValue>10</initValue>
@@ -17,4 +18,6 @@
       <initValue>5</initValue>
       <name>G_ShortTimeOut</name>
    </GlobalVariableEntity>
+=======
+>>>>>>> branch 'master' of https://github.com/arshedmd/FirstScriptUsingTool.git
 </GlobalVariableEntities>

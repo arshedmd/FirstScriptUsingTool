@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FirstTestSuite,IE 8.0,,2017-06-22 21:26:05,2017-06-22 21:28:22,2m - 17.193s,ERROR
+,,,,,,
+Test Cases/FirstSciptUsingTool,IE 8.0,,2017-06-22 21:26:05,2017-06-22 21:26:05,0.471s,ERROR
+Statement - evaluate(new java.io.File(FirstSciptUsingTool)),IE 8.0,,2017-06-22 21:26:05,2017-06-22 21:26:05,0.007s,PASSED
+,,,,,,
+Test Cases/patientPanelUserTagSearch,IE 8.0,,2017-06-22 21:26:06,2017-06-22 21:28:22,2m - 16.363s,FAILED
+"Statement - info = [""url"":"""", ""username"":"""", ""password"":""""]",IE 8.0,,2017-06-22 21:26:06,2017-06-22 21:26:06,0.002s,PASSED
+"Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/FirstTestData"")",IE 8.0,,2017-06-22 21:26:06,2017-06-22 21:26:07,0.888s,PASSED
+"Statement - url = data.getValue(1, 1)",IE 8.0,,2017-06-22 21:26:07,2017-06-22 21:26:07,0.023s,PASSED
+"Statement - username = data.getValue(2, 1)",IE 8.0,,2017-06-22 21:26:07,2017-06-22 21:26:07,0.001s,PASSED
+"Statement - password = data.getValue(3, 1)",IE 8.0,,2017-06-22 21:26:07,2017-06-22 21:26:07,0.000s,PASSED
+Statement - url = url,IE 8.0,,2017-06-22 21:26:07,2017-06-22 21:26:07,0.001s,PASSED
+Statement - password = password,IE 8.0,,2017-06-22 21:26:07,2017-06-22 21:26:07,0.001s,PASSED
+Statement - username = username,IE 8.0,,2017-06-22 21:26:07,2017-06-22 21:26:07,0.001s,PASSED
+openBrowser,IE 8.0,,2017-06-22 21:26:07,2017-06-22 21:27:06,58.886s,PASSED
+setText,IE 8.0,,2017-06-22 21:27:06,2017-06-22 21:27:55,49.486s,FAILED
+setText,IE 8.0,,2017-06-22 21:27:55,2017-06-22 21:28:07,11.514s,FAILED
+click,IE 8.0,,2017-06-22 21:28:07,2017-06-22 21:28:07,0.051s,FAILED
+waitForElementVisible,IE 8.0,,2017-06-22 21:28:07,2017-06-22 21:28:07,0.038s,FAILED
+click,IE 8.0,,2017-06-22 21:28:07,2017-06-22 21:28:07,0.025s,FAILED
+Statement - java.lang.Thread.sleep(3000),IE 8.0,,2017-06-22 21:28:07,2017-06-22 21:28:10,3.005s,PASSED
+click,IE 8.0,,2017-06-22 21:28:10,2017-06-22 21:28:10,0.046s,FAILED
+Statement - java.lang.Thread.sleep(3000),IE 8.0,,2017-06-22 21:28:10,2017-06-22 21:28:13,3.001s,PASSED
+click,IE 8.0,,2017-06-22 21:28:13,2017-06-22 21:28:13,0.034s,FAILED
+Statement - java.lang.Thread.sleep(3000),IE 8.0,,2017-06-22 21:28:13,2017-06-22 21:28:16,3.001s,PASSED
+click,IE 8.0,,2017-06-22 21:28:16,2017-06-22 21:28:16,0.033s,FAILED
+Statement - java.lang.Thread.sleep(3000),IE 8.0,,2017-06-22 21:28:16,2017-06-22 21:28:19,3.002s,PASSED
+click,IE 8.0,,2017-06-22 21:28:19,2017-06-22 21:28:19,0.040s,FAILED
+Statement - java.lang.Thread.sleep(3000),IE 8.0,,2017-06-22 21:28:19,2017-06-22 21:28:22,3.001s,PASSED
+Statement - ele = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/FirstScriptUsingToolOr/Page_Health Home Dashboard (1)/patient panel/patientpanelMaText)),IE 8.0,,2017-06-22 21:28:22,2017-06-22 21:28:22,0.065s,FAILED
+"Statement - If (ele.equalsIgnoreCase(""AA""))",IE 8.0,,2017-06-22 21:28:22,2017-06-22 21:28:22,0.009s,PASSED

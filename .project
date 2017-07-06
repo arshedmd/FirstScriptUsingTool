@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>E%%WebUI%Sample Web Testing Project.prj</name>
 	<comment></comment>
 	<projects>
@@ -153,6 +154,35 @@
 		</filter>
 		<filter>
 			<id>1498228544493</id>
+=======
+	<name>C%%Users%kctech%Katalon Studio%TestAutomation%TestAutomation.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<filteredResources>
+		<filter>
+			<id>1497963209213</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1497963209218</id>
+>>>>>>> branch 'master' of https://github.com/arshedmd/FirstScriptUsingTool.git
 			<name></name>
 			<type>6</type>
 			<matcher>
