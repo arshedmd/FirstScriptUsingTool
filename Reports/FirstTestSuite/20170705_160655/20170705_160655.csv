@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FirstTestSuite,Chrome 59.0.3071.115,,2017-07-05 16:06:59,2017-07-05 16:07:47,48.290s,ERROR
+,,,,,,
+Test Cases/FirstSciptUsingTool,Chrome 59.0.3071.115,,2017-07-05 16:06:59,2017-07-05 16:07:47,47.763s,PASSED
+openBrowser,Chrome 59.0.3071.115,,2017-07-05 16:06:59,2017-07-05 16:07:22,22.455s,PASSED
+setText,Chrome 59.0.3071.115,,2017-07-05 16:07:22,2017-07-05 16:07:22,0.356s,PASSED
+setText,Chrome 59.0.3071.115,,2017-07-05 16:07:22,2017-07-05 16:07:23,0.228s,PASSED
+click,Chrome 59.0.3071.115,,2017-07-05 16:07:23,2017-07-05 16:07:23,0.170s,PASSED
+waitForElementVisible,Chrome 59.0.3071.115,,2017-07-05 16:07:23,2017-07-05 16:07:27,4.067s,PASSED
+Statement - println(greet),Chrome 59.0.3071.115,,2017-07-05 16:07:27,2017-07-05 16:07:27,0.003s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 59.0.3071.115,,2017-07-05 16:07:27,2017-07-05 16:07:30,3.007s,PASSED
+"Statement - varA = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/FirstScriptUsingToolOr/Page_Health Home Dashboard (1)/right arrow), 5)",Chrome 59.0.3071.115,Login Page,2017-07-05 16:07:30,2017-07-05 16:07:30,0.078s,PASSED
+Statement - If (varA == true),Chrome 59.0.3071.115,,2017-07-05 16:07:30,2017-07-05 16:07:39,9.312s,PASSED
+callTestCase,Chrome 59.0.3071.115,,2017-07-05 16:07:39,2017-07-05 16:07:47,7.574s,PASSED
+,,,,,,
+Test Cases/patientPanelUserTagSearch,Chrome 59.0.3071.115,,2017-07-05 16:07:47,2017-07-05 16:07:47,0.160s,ERROR
+"Statement - info = [""url"":"""", ""username"":"""", ""password"":""""]",Chrome 59.0.3071.115,,2017-07-05 16:07:47,2017-07-05 16:07:47,0.001s,PASSED
+openBrowser,Chrome 59.0.3071.115,,2017-07-05 16:07:47,2017-07-05 16:07:47,0.001s,PASSED

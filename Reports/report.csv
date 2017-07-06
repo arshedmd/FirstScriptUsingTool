@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FirstTestSuite,Chrome 58.0.3029.110,,2017-06-23 13:52:52,2017-06-23 13:57:52,4m - 59.568s,ERROR
+,,,,,,
+Test Cases/FirstSciptUsingTool,Chrome 58.0.3029.110,,2017-06-23 13:52:53,2017-06-23 13:52:53,0.487s,ERROR
+Statement - evaluate(new java.io.File(FirstSciptUsingTool)),Chrome 58.0.3029.110,,2017-06-23 13:52:53,2017-06-23 13:52:53,0.009s,PASSED
+,,,,,,
+Test Cases/patientPanelUserTagSearch,Chrome 58.0.3029.110,,2017-06-23 13:52:53,2017-06-23 13:57:52,4m - 58.732s,FAILED
+"Statement - info = [""url"":"""", ""username"":"""", ""password"":""""]",Chrome 58.0.3029.110,,2017-06-23 13:52:53,2017-06-23 13:52:53,0.002s,PASSED
+"Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(""Data Files/FirstTestData"")",Chrome 58.0.3029.110,,2017-06-23 13:52:53,2017-06-23 13:52:54,1.006s,PASSED
+"Statement - url = data.getValue(1, 1)",Chrome 58.0.3029.110,,2017-06-23 13:52:54,2017-06-23 13:52:54,0.026s,PASSED
+"Statement - username = data.getValue(2, 1)",Chrome 58.0.3029.110,,2017-06-23 13:52:54,2017-06-23 13:52:54,0.002s,PASSED
+"Statement - password = data.getValue(3, 1)",Chrome 58.0.3029.110,,2017-06-23 13:52:54,2017-06-23 13:52:54,0.001s,PASSED
+Statement - url = url,Chrome 58.0.3029.110,,2017-06-23 13:52:54,2017-06-23 13:52:54,0.001s,PASSED
+Statement - password = password,Chrome 58.0.3029.110,,2017-06-23 13:52:54,2017-06-23 13:52:54,0.000s,PASSED
+Statement - username = username,Chrome 58.0.3029.110,,2017-06-23 13:52:54,2017-06-23 13:52:54,0.001s,PASSED
+openBrowser,Chrome 58.0.3029.110,,2017-06-23 13:52:54,2017-06-23 13:52:59,4.494s,PASSED
+setText,Chrome 58.0.3029.110,,2017-06-23 13:52:59,2017-06-23 13:53:31,31.988s,FAILED
+setText,Chrome 58.0.3029.110,,2017-06-23 13:53:31,2017-06-23 13:54:03,31.937s,FAILED
+click,Chrome 58.0.3029.110,,2017-06-23 13:54:03,2017-06-23 13:54:35,31.680s,FAILED
+waitForElementVisible,Chrome 58.0.3029.110,,2017-06-23 13:54:35,2017-06-23 13:54:45,10.503s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-23 13:54:45,2017-06-23 13:55:17,31.886s,FAILED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-23 13:55:17,2017-06-23 13:55:20,3.007s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-23 13:55:20,2017-06-23 13:55:52,31.587s,FAILED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-23 13:55:52,2017-06-23 13:55:55,3.001s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-23 13:55:55,2017-06-23 13:56:26,31.482s,FAILED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-23 13:56:26,2017-06-23 13:56:29,3.002s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-23 13:56:29,2017-06-23 13:57:01,31.873s,FAILED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-23 13:57:01,2017-06-23 13:57:04,3.001s,PASSED
+click,Chrome 58.0.3029.110,,2017-06-23 13:57:04,2017-06-23 13:57:36,31.721s,FAILED
+Statement - java.lang.Thread.sleep(3000),Chrome 58.0.3029.110,,2017-06-23 13:57:36,2017-06-23 13:57:39,3.002s,PASSED
+Statement - ele = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/FirstScriptUsingToolOr/Page_Health Home Dashboard (1)/patient panel/patientpanelMaText)),Chrome 58.0.3029.110,,2017-06-23 13:57:39,2017-06-23 13:57:52,13.321s,FAILED
+"Statement - If (ele.equalsIgnoreCase(""AA""))",Chrome 58.0.3029.110,,2017-06-23 13:57:52,2017-06-23 13:57:52,0.016s,PASSED

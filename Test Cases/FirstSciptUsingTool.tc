@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FirstSciptUsingTool</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1af7cab-cdc2-4f04-9125-5efc94c019af</testCaseGuid>
+   <variable>
+      <defaultValue>'https://stg.gsihealth.net/dashboard/'</defaultValue>
+      <description></description>
+      <id>bba9d744-8daf-4e95-bad9-c942545cac0a</id>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'cm@cm.com'</defaultValue>
+      <description></description>
+      <id>27bccb95-d899-4f5f-8bc9-9221028cb070</id>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test123#'</defaultValue>
+      <description></description>
+      <id>55665260-9320-4f50-a9a9-0e337318efca</id>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'hello'</defaultValue>
+      <description></description>
+      <id>fc8db313-a03c-4969-be2b-8dd8dc962145</id>
+      <name>greet</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_md-virtual-repeat-scroller</name>
+   <tag></tag>
+   <elementGuidId>1e168c8d-6235-43b0-8d0e-8ec7be7fde18</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyPatientList&quot;)/md-content[@class=&quot;my-patient-list-content layout-fill ng-scope _md layout-column flex&quot;]/md-virtual-repeat-container[@class=&quot;list-container md-virtual-repeat-container md-orient-vertical ng-scope flex&quot;]/div[@class=&quot;md-virtual-repeat-scroller&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md-virtual-repeat-scroller</value>
+   </webElementProperties>
+</WebElementEntity>
